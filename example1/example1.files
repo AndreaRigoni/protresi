@@ -1,0 +1,8 @@
+CMakeLists.txt
+imagesource.cpp
+imagesource.h
+main.cpp
+mainwindow.cpp
+mainwindow.h
+viewport1.cpp
+viewport1.h

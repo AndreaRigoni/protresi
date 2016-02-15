@@ -18,6 +18,12 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+    QToolBar * getToolBar() const;
+    QStatusBar * getStatusBar() const;
+    
+public slots:
+    void loadDICOM();
+    
 private:
     Ui::MainWindow *ui;
     friend class MainWindowData;
